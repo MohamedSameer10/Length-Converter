@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length converter</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input{
+            padding: 0.5rem;
+            font-size: 1.2rem
+        }
+    </style>
+</head>
+<body>
+    <h1>cm to inches</h1>
+
+    <input type="text" name="cm" id="cm" required><br><br>
+
+    <button onclick="cmtoinches()" style="padding: 0.5rem;font-size: 1.4rem;">cm to inches</button>
+    
+
+    <div id="result" style="margin-top: 1rem;font-size: 1.4rem;" ></div>
+
+    <script src="length_converter.js"></script>
+</body>
+</html>
